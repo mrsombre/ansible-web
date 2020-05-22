@@ -1,0 +1,5 @@
+/production.ini
+!/group_vars/README.md
+/group_vars/*
+!/host_vars/README.md
+/host_vars/*

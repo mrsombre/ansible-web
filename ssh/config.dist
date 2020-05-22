@@ -1,0 +1,3 @@
+Host *
+  LogLevel ERROR
+  StrictHostKeyChecking no

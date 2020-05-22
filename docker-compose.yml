@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  main:
+    build: .
+    environment:
+      ANSIBLE_CONFIG: "/opt/ansible/ansible.cfg"
+    volumes:
+      - "./:/opt/ansible"
